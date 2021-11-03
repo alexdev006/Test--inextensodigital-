@@ -18,10 +18,7 @@ const ReactLvl2 = () => {
     return (
         <>
             <div className='mainContainerLvl2'>
-
                 <h1>React level 2</h1>
-
-
                 {gitHubData.message ? <p>Error: {gitHubData.message}</p> : ""}
                 <input className='mainInput' type="text" value={userInput} placeholder='Find a user...' onChange={handleUserChange} />
                 <div>
